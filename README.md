@@ -1,1 +1,2 @@
-# mtm6302-capstone-reev0056
+For this mockup, I opted for a minimalist, contemporary aesthetic that prioritizes readability and a modern appearance. The existing website has an outdated feel, attributed mainly to its font choices and overall design elements. Introducing 'Apple SD Gothic Neo' for the title and 'AppleGothic' for the text makes for an improvement in readability and aesthetics. The 'read more...' button on the phone screen prevents the text from completely occupying the screen, making a neater and more visually pleasing appearance.
+
