@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+main {
+    margin: 20px;
+}
+
+.apod {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#apod-image {
+    max-width: 100%;
+}
+
+p {
+    text-align: left;
+}
