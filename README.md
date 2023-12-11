@@ -1,49 +1,51 @@
+Quiz App Project Report Joshua Reeves 041-073-807
+
 Overview
-This repository contains the code for a prototype of a web application that showcases NASA's Astronomy Picture of the Day (APOD). The prototype utilizes HTML, CSS, and JavaScript, along with the NASA API, to dynamically fetch and display the APOD image, title, explanation, and the date it was published.
+The project aimed to create a web app for quizzes using the Quiz API, focusing on HTML, CSS, and JavaScript with the Fetch API. Key steps included setting up files, building the HTML structure, styling the UI, and implementing interaction logic.
 
-Development Process
-Step 1: Project Initialization
+Steps Taken
+Requirements Understanding:
 
-Set up the foundational project structure, including the following key files:
-- index.html: The main HTML file for the web page.
-- style.css: The CSS file for styling the page.
-- script.js: The JavaScript file responsible for fetching and rendering APOD data.
-- README.md: This documentation file.
+Carefully reviewed project requirements.
+File Setup:
 
-Step 2: HTML Skeleton
-Constructed the HTML structure for the web page, incorporating the following main components:
-- A header section to display the project title.
-- The main content area to present APOD content, enclosed within a visually appealing container.
+Created index.html, style.css, and script.js files.
+HTML Structure:
 
-Step 3: CSS Styling
-- Applied CSS rules to style the HTML structure.
-- Used Bootstrap to establish a responsive layout and provide basic styling elements.
-- Customized the design to achieve a polished and centered presentation.
+Set up basic HTML with a form, containers, and buttons.
+Styling:
 
-Step 4: JavaScript Functionality
-- Implemented JavaScript code to interact with the NASA API.
-- Utilized the provided API key to request APOD data from the API endpoint.
-- Dynamically updated the web page with the APOD title, image, explanation, and the current date of publication.
-- Implemented error handling to manage issues related to API requests and responses.
+Improved UI with clean and modern styles.
+JavaScript Logic:
 
-Step 5: Optimization
-- Ensured that the APOD image displays responsively by setting a maximum width.
-- Centered the current date element for enhanced visual appeal.
+Implemented logic for starting the quiz, loading questions, and updating scores.
+Question Display:
 
-Resources Utilized
-API
-NASA API (https://api.nasa.gov/planetary/apod): The primary source for obtaining APOD data.
+Dynamically displayed questions and answer options from the Quiz API.
+Result Handling:
 
-Styling
-Bootstrap (https://getbootstrap.com/): Applied Bootstrap for foundational styling, layout, and responsiveness.
+Checked and displayed correct/incorrect feedback, updated scores.
+Local Storage:
 
-Documentation
-MDN Web Docs (https://developer.mozilla.org/): A comprehensive reference for HTML, CSS, and JavaScript documentation.
-Stack Overflow (https://stackoverflow.com/): Served as a valuable resource for resolving specific coding challenges.
+Used local storage for persistent score storage, added a reset button.
 
-Challenges Encountered
+Resources Used
+Quiz API
+MDN Web Docs
+W3Schools
+Challenges Faced
+Correct Answers Property:
 
-- Responsive Design: Ensuring that the APOD image and content adapt well to different screen sizes.
-- API Integration: Fetching APOD data from the NASA API, handling API response data, and managing errors.
-- One notable challenge was the inability to attribute the owner of the picture
-- Unable to add the next day's title
+Handled inconsistencies in the correct_answer property.
+UI Design:
+
+Balanced a visually appealing design with simplicity.
+Asynchronous Operations:
+
+Ensured proper handling of Fetch API for smooth user experience.
+Dynamic DOM Manipulation:
+
+Managed dynamic HTML element creation for seamless interaction.
+
+Conclusion
+The project resulted in a functional and visually pleasing quiz app. Overcoming challenges, it allows users to engage in quizzes, get instant feedback, and track their performance. Future iterations may include additional features and improvements.
