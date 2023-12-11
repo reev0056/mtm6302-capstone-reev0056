@@ -29,9 +29,9 @@ Steps Taken
 - Used local storage for persistent score storage, and added a reset button.
 
 Resources Used
-Quiz API
-MDN Web Docs
-W3Schools
+- Quiz API
+- MDN Web Docs
+- W3Schools
 
 Challenges Faced
 1. Correct Answers Property:
@@ -47,4 +47,5 @@ Challenges Faced
 - Managed dynamic HTML element creation for seamless interaction.
 
 Conclusion
+
 The project resulted in a functional and visually pleasing quiz app. Overcoming challenges, allows users to engage in quizzes, get instant feedback, and track their performance. Future iterations may include additional features and improvements.
