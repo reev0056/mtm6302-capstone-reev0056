@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capstone NASA APOD Part 3</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Quiz App</title>
 </head>
+
 <body>
-    <header class="bg-primary text-light py-4">
-        <div class="container">
-            <h1>NASA Astronomy Picture of the Day</h1>
+    <div class="container">
+        <h1>Quiz App</h1>
+        <form id="quizForm">
+            <label for="difficulty">Select Difficulty:</label>
+            <select id="difficulty" name="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button type="button" id="startQuiz">Start Quiz</button>
+        </form>
+
+        <div id="quizContainer" style="display: none;">
+            <!-- Question and options will be displayed here -->
+            <p id="question"></p>
+            <div id="options"></div>
+            <p id="result"></p>
+            <button type="button" id="nextQuestion">Next Question</button>
         </div>
-    </header>
-    <main class="container mt-4">
-        <div class="apod bg-white p-4 rounded">
-            <p id="current-date" class="text-center"></p>
-            <img id="apod-image" src="" alt="Astronomy Picture of the Day" class="img-fluid">
-            <h2 id="title" class="mt-3"></h2>
-            <p id="explanation"></p>
+
+        <div id="scoreContainer" style="display: none;">
+            <!-- Score and reset button will be displayed here -->
+            <p id="score"></p>
+            <button type="button" id="resetScore">Reset Score</button>
         </div>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
